@@ -17,12 +17,12 @@ sleep(6)
 
 campo_user = browser.find_element(By.XPATH,"//input[@name='user']")
 sleep(1)
-campo_user.send_keys("69939861249")
+campo_user.send_keys("----")
 sleep(3)
 
 campo_password = browser.find_element(By.XPATH,"//input[@name='pass']")
 sleep(1)
-campo_password.send_keys("09091983")
+campo_password.send_keys("----")
 sleep(3)
 
 botao_enter = browser.find_element(By.XPATH,"//button[@data-testid='login-submit']").click()
